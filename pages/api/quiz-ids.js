@@ -7,10 +7,9 @@ async function quizIDs(req, res) {
     res.json({
       quiz: { quizIds: user.quizIds, course: user.course },
       hasQuiz: true,
-      submitted: false
     })
   } else {
-    res.json({ hasQuiz: false, submitted: false })
+    res.json({ hasQuiz: false })
   }
   res.end()
 }
