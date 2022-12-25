@@ -1,6 +1,6 @@
 This is a Quiz generator based on topics, courses for pharmacy school created with Nextjs + Tailwind + Mongodb + DatoCMS.
 
-## Quizpal - The Quiz generator for pharmacy school
+### Quizpal - The Quiz generator for pharmacy school
 quizpal stores its questions in the datocms and feeds it in based on the generator algorithm. This algorithm operates with some variables that must be inputed by the
 user and to operate.
 ```
